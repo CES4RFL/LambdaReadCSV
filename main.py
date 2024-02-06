@@ -12,7 +12,7 @@ def handler_name(event, context):
 
     return {
         "statusCode": 200,
-        "body": "{'Status': 'Archivos procesados'}",
+        "body": "{'Status': 'Archivos procesados con exito'}",
         "headers": {
             'Content-Type': 'text/html',
         }
